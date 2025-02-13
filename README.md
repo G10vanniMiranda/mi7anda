@@ -1,3 +1,3 @@
 #### Screens
 
-<img src="/meuprojeto.jpg" alt="Print do Projeto" />
+<img src="./public/meuprojeto.jpg" alt="Print do Projeto" />
