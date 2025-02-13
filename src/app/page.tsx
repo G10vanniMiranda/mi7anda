@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { CiInstagram, CiMenuKebab } from "react-icons/ci";
-import { FaWhatsapp, FaInstagram } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa6";
 
 export default function Home() {
   return (
