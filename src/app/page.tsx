@@ -66,7 +66,7 @@ export default function Home() {
 
         </div>
 
-        <div className="w-52 h-12 mt-7 flex justify-center items-center ">
+        <div className="w-52 mt-7 flex justify-center items-center ">
           <p className="text-sm flex gap-1 justify-center text-center">Copyright 2025 |<Link className="border-b" href={"https://wa.me/5569999787798"}>Mi7anda.</Link></p>
         </div>
 
