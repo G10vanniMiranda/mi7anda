@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { CiInstagram, CiMenuKebab } from "react-icons/ci";
-import { FaWhatsapp } from "react-icons/fa6";
+import { CiMenuKebab } from "react-icons/ci";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa6";
 import Image from "next/image";
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
             </Link>
 
             <Link href={"https://www.instagram.com/giovanni96miranda/?__pwa=1#"}>
-              <CiInstagram size={30} className="hover:text-red-600 hover:scale-150 duration-500 cursor-pointer" />
+              <FaInstagram size={30} className="hover:text-red-600 hover:scale-150 duration-500 cursor-pointer" />
             </Link>
 
           </div>
