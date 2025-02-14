@@ -34,31 +34,31 @@ export default function Home() {
 
         <div className="w-full flex flex-col items-center gap-3">
 
-          <div data-aos="fade-right" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-2">
+          <div data-aos="fade-right" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <img width={50} height={20} className="rounded-md" src="https://avatars.githubusercontent.com/u/134082250?v=4" alt="Foto do Site" />
             <p className=" rounded-md p-2 px-5 bg-zinc-800">GitHub</p>
             <CiMenuKebab />
           </div>
 
-          <div data-aos="fade-left" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-2">
+          <div data-aos="fade-left" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <Image width={50} height={20} className="rounded-md" src="/react-js.png" alt="Foto do Site" />
             <p className="flex justify-between gap-2"> <span className="p-2 px-5 bg-blue-500 rounded-md" >React Js</span> </p>
             <CiMenuKebab />
           </div>
 
-          <div data-aos="fade-right" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-2">
+          <div data-aos="fade-right" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <Image width={50} height={20} className="rounded-md" src="/mobile.jpg" alt="Foto do Site" />
             <p className="flex justify-between gap-2"> <span className="p-2 px-5 bg-green-500 rounded-md" >React Native</span> </p>
             <CiMenuKebab />
           </div>
 
-          <div data-aos="fade-left" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-2">
+          <div data-aos="fade-left" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <Image width={50} height={20} className="rounded-md" src="/nextjs.jpg" alt="Foto do Site" />
             <p className="p-2 px-5 bg-slate-400 rounded-md">Next Web</p>
             <CiMenuKebab />
           </div>
 
-          <div data-aos="fade-right" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-2">
+          <div data-aos="fade-right" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <Image width={50} height={20} className="rounded-md" src="/nestjs-prisma.png" alt="Foto do Site" />
             <p className="p-2 px-5 bg-rose-700 rounded-md">Nest Backend</p>
             <CiMenuKebab />
