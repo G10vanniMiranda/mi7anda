@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-zinc-900 h-screen">
+    <div className="w-screen h-[110vh] bg-indigo-700">
 
-      <div className="w-full flex flex-col items-center gap-6 pt-12 relative">
+      <div className="w-full flex flex-col items-center gap-6 pt-14 relative">
 
         <img data-aos="fade-down" data-aos-delay="500" className="rounded-lg hover:scale-105 duration-300" width={150} height={150} src="/perfil.png" alt="Foto de Perfil do Giovanni" />
 
@@ -34,7 +34,7 @@ export default function Home() {
 
         <div className="w-full flex flex-col items-center gap-3">
 
-          <div data-aos="fade-right" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <div data-aos="fade-right" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-125 duration-300 p-3">
             <img width={50} height={20} className="rounded-md" src="https://avatars.githubusercontent.com/u/134082250?v=4" alt="Foto do Site" />
             <p className=" rounded-md p-2 px-5 bg-zinc-800">GitHub</p>
             <CiMenuKebab />
@@ -66,11 +66,12 @@ export default function Home() {
 
         </div>
 
-        <div className="w-52 mt-7 flex justify-center items-center ">
+        <div className="w-52 mt-7 flex justify-center items-center">
           <p className="text-sm flex gap-1 justify-center text-center">Copyright 2025 |<Link className="border-b" href={"https://wa.me/5569999787798"}>Mi7anda.</Link></p>
         </div>
 
       </div>
+
     </div>
   );
 }
