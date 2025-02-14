@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="w-full flex flex-col items-center gap-6 pt-12 relative">
 
-        <img data-aos="fade-down" data-aos-delay="500" className="rounded-full hover:scale-105 duration-300" width={180} src="https://avatars.githubusercontent.com/u/134082250?v=4" alt="Foto de Perfil do Giovanni" />
+        <img data-aos="fade-down" data-aos-delay="500" className="rounded-lg hover:scale-105 duration-300" width={150} height={150} src="/perfil.png" alt="Foto de Perfil do Giovanni" />
 
         <div data-aos="fade-up" data-aos-delay="500" className="flex flex-col items-center gap-3" >
           <div className="flex flex-col items-center gap-1">
@@ -35,7 +35,7 @@ export default function Home() {
         <div className="w-full flex flex-col items-center gap-3">
 
           <div data-aos="fade-right" data-aos-delay="500" className="w-96 lg:w-1/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-2">
-            <img width={50} height={20} className="rounded-md" src="/perfil.png" alt="Foto do Site" />
+            <img width={50} height={20} className="rounded-md" src="https://avatars.githubusercontent.com/u/134082250?v=4" alt="Foto do Site" />
             <p className=" rounded-md p-2 px-5 bg-zinc-800">GitHub</p>
             <CiMenuKebab />
           </div>
