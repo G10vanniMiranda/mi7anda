@@ -2,6 +2,7 @@ import Link from "next/link";
 import { CiMenuKebab } from "react-icons/ci";
 import { FaWhatsapp, FaInstagram } from "react-icons/fa6";
 import Image from "next/image";
+import { BiLogoGmail } from "react-icons/bi";
 
 export default function Home() {
   return (
@@ -29,36 +30,40 @@ export default function Home() {
               <FaInstagram size={30} className="hover:text-red-600 hover:scale-150 duration-500 cursor-pointer" />
             </Link>
 
+            <Link href={"mailto:giovannimiranda09@gmail.com"}>
+              <BiLogoGmail size={30} className="hover:text-blue-600 hover:scale-150 duration-500 cursor-pointer" />
+            </Link>
+
           </div>
         </div>
 
         <div className="w-full flex flex-col items-center gap-3">
 
-          <div data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-125 duration-300 p-3">
+          <div data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-125 duration-300 p-3">
             <img width={50} height={20} className="rounded-md" src="https://avatars.githubusercontent.com/u/134082250?v=4" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-zinc-800">GitHub</p>
             <CiMenuKebab />
           </div>
 
-          <div data-aos="fade-left" data-aos-delay="500" className="w-80 md:w-3/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <div data-aos="fade-left" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <Image width={50} height={20} className="rounded-md" src="/react-js.png" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-blue-800"> React Js </p>
             <CiMenuKebab />
           </div>
 
-          <div data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <div data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <Image width={50} height={20} className="rounded-md" src="/mobile.jpg" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-green-800"> React Native </p>
             <CiMenuKebab />
           </div>
 
-          <div data-aos="fade-left" data-aos-delay="500" className="w-80 md:w-3/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <div data-aos="fade-left" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <Image width={50} height={20} className="rounded-md" src="/nextjs.jpg" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 bg-slate-400 rounded-md text-center text-white">Next Web</p>
             <CiMenuKebab />
           </div>
 
-          <div data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <div data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <Image width={50} height={20} className="rounded-md" src="/nestjs-prisma.png" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 bg-rose-700 rounded-md text-center text-white">Nest Backend</p>
             <CiMenuKebab />
