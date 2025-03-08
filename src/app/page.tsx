@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { CiMenuKebab } from "react-icons/ci";
-import { FaWhatsapp, FaInstagram } from "react-icons/fa6";
 import Image from "next/image";
+import { CiMenuKebab } from "react-icons/ci";
 import { BiLogoGmail } from "react-icons/bi";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -39,39 +39,40 @@ export default function Home() {
 
         <div className="w-full flex flex-col items-center gap-3">
 
-          <div data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-125 duration-300 p-3">
+
+          <Link href={"https://github.com/G10vanniMiranda"} data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-125 duration-300 p-3">
             <img width={50} height={20} className="rounded-md" src="https://avatars.githubusercontent.com/u/134082250?v=4" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-zinc-800">GitHub</p>
             <CiMenuKebab />
-          </div>
+          </Link>
 
-          <div data-aos="fade-left" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
-            <Image width={50} height={20} className="rounded-md" src="/react-js.png" alt="Foto do Site" />
-            <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-blue-800"> React Js </p>
+          <Link href={"https://espaco-alfa.vercel.app/"} data-aos="fade-left" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+            <Image width={50} height={20} className="rounded-md" src="/logosf.jpg" alt="Foto do Site" />
+            <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-blue-800"> Espaço Alfa </p>
             <CiMenuKebab />
-          </div>
+          </Link>
 
-          <div data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
-            <Image width={50} height={20} className="rounded-md" src="/mobile.jpg" alt="Foto do Site" />
-            <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-green-800"> React Native </p>
+          <Link href={"https://hamburgueria-nine-chi.vercel.app/"} data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+            <Image width={50} height={20} className="rounded-md" src="/burgue.jpg" alt="Foto do Site" />
+            <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-green-800"> Hamburgueria </p>
             <CiMenuKebab />
-          </div>
+          </Link>
 
-          <div data-aos="fade-left" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <Link href={""} data-aos="fade-left" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <Image width={50} height={20} className="rounded-md" src="/nextjs.jpg" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 bg-slate-400 rounded-md text-center text-white">Next Web</p>
             <CiMenuKebab />
-          </div>
+          </Link>
 
-          <div data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <Link href={""} data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
             <Image width={50} height={20} className="rounded-md" src="/nestjs-prisma.png" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 bg-rose-700 rounded-md text-center text-white">Nest Backend</p>
             <CiMenuKebab />
-          </div>
+          </Link>
 
         </div>
 
-        <div className="w-52 flex justify-center items-center">
+        <div className="w-52 flex justify-center items-center ">
           <p className="text-sm flex gap-1 justify-center text-center">Copyright 2025 |<Link className="border-b hover:text-green-600" href={"https://wa.me/5569999787798"}>Mi7anda.</Link></p>
         </div>
 
