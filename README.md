@@ -3,6 +3,15 @@
 <img src="./public/meuprojeto.jpg" alt="Print do Projeto" />
 
 
+#### Rodar o banco
+npx json-server --port 8080 src/service/banco.json
+
+#### Estrategias
+    * feth api
+    * cadastro
+    * animação
+    * material designer
+
 #### Usando Material UI
 * link ref
 ```

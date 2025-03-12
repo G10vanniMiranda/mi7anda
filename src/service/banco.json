@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "9d29",
+      "name": "Mi7anda",
+      "email": "giovannimiranda09@gmail.com",
+      "senha": "Gg123456"
+    },
+    {
+      "id": "d2cd",
+      "name": "Mi7anda",
+      "email": "giovannimiranda09@gmail.com",
+      "senha": "Gg123456"
+    },
+    {
+      "id": "4513",
+      "name": "Giovanni 2",
+      "email": "giovannimiranda09@gmail.com",
+      "senha": "123456"
+    }
+  ],
+  "category": [
+    {
+      "id": "1f29",
+      "name": "Eletronicos"
+    },
+    {
+      "id": "ca36",
+      "name": "Software"
+    },
+    {
+      "id": "72ae",
+      "name": "Hardware"
+    }
+  ],
+  "contas": [],
+  "receitas": []
+}
