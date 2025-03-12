@@ -9,7 +9,7 @@ export default function Login() {
         <div className="w-screen h-screen flex flex-col items-center justify-center gap-3 bg-white">
             <div className="w-full text-center pb-3">
                 <h1 className="text-3xl font-bold text-blue-500">Seja Bem Vindo</h1>
-                <p className="text-gray-800 font-sans">Efetue seu login</p>
+                <p className="text-gray-800 font-sans">Efetue seu cadastro</p>
             </div>
 
             <div className="w-full flex justify-center gap-28 pb-3">
@@ -23,19 +23,26 @@ export default function Login() {
 
             <form className="w-72 flex flex-col gap-3">
                 <div className="flex flex-col">
-                    <TextField id="outlined-basic" label="E-mail ou usuário" variant="outlined" type="text" />
+                    <TextField id="outlined-basic" label="Nome de usuário" variant="outlined" type="text" />
                 </div>
 
-                <div className="flex flex-col pb-2">
+                <div className="flex flex-col">
+                    <TextField id="outlined-basic" label="E-mail" variant="outlined" type="text" />
+                </div>
+
+                <div className="flex flex-col">
                     <TextField id="outlined-basic" label="Senha" variant="outlined" type="text" className='w-full' />
                 </div>
 
-                <button className="bg-blue-500 text-white py-2 rounded-full" type="submit">Acessar</button>
+                <div className="flex flex-col pb-2">
+                    <TextField id="outlined-basic" label="Confirmar senha" variant="outlined" type="text" className='w-full' />
+                </div>
+
+                <button className="bg-blue-500 text-white py-2 rounded-full" type="submit">Cadastrar</button>
             </form>
 
-            <div className="w-full text-center pt-3">
-                <p className="text-gray-800 font-sans">Esqueceu sua senha?</p>
-                <Link className="text-blue-700 cursor-pointer" href="#">Clique aqui</Link>
+            <div className="w-full text-center pt-2">
+                <Link className="text-blue-700 cursor-pointer" href="/login">Realizar login</Link>
             </div>
         </div>
     );
