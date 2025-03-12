@@ -6,17 +6,17 @@ import { FcGoogle } from 'react-icons/fc';
 
 export default function Login() {
     return (
-        <div className="w-screen h-screen flex flex-col items-center justify-center gap-3 bg-white">
+        <div className="w-screen h-screen flex flex-col items-center justify-center gap-3">
             <div className="w-full text-center pb-3">
-                <h1 className="text-3xl font-bold text-blue-500">Seja Bem Vindo</h1>
+                <h1 className="text-3xl font-bold">Seja Bem Vindo</h1>
                 <p className="text-gray-800 font-sans">Efetue seu login</p>
             </div>
 
             <div className="w-full flex justify-center gap-28 pb-3">
-                <h1 className="bg-white border-none shadow-md text-blue-600 p-3 rounded-3xl cursor-pointer hover:scale-110 duration-300">
+                <h1 className="bg-black border-none shadow-md text-blue-600 p-3 rounded-3xl cursor-pointer hover:scale-110 duration-300">
                     <FaFacebook size={30} />
                 </h1>
-                <h1 className="bg-white border-none shadow-md p-3 rounded-3xl cursor-pointer hover:scale-110 duration-300">
+                <h1 className="bg-black border-none shadow-md p-3 rounded-3xl cursor-pointer hover:scale-110 duration-300">
                     <FcGoogle size={30} />
                 </h1>
             </div>
@@ -30,7 +30,7 @@ export default function Login() {
                     <TextField id="outlined-basic" label="Senha" variant="outlined" type="text" className='w-full' />
                 </div>
 
-                <button className="bg-blue-500 text-white py-2 rounded-full" type="submit">Acessar</button>
+                <button className="bg-black text-white py-2 rounded-full" type="submit">Acessar</button>
             </form>
 
             <div className="w-full text-center pt-3">
