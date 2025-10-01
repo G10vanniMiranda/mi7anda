@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-1">
 
             <p className="text-3xl font-bold">Giovanni Miranda</p>
-            <p className="">Desenvolvedor Web Full Stack</p>
+            <p className="">Desenvolvedor Full Stack</p>
 
           </div>
 
@@ -40,34 +40,74 @@ export default function Home() {
         <div className="w-full flex flex-col items-center gap-3">
 
 
-          <Link href={"https://github.com/G10vanniMiranda"} data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-125 duration-300 p-3">
+          <Link
+            href={"https://github.com/G10vanniMiranda"}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-right"
+            data-aos-delay="500"
+            className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-125 duration-300 p-3"
+          >
             <img width={50} height={20} className="rounded-md" src="https://avatars.githubusercontent.com/u/134082250?v=4" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-zinc-800">GitHub</p>
             <CiMenuKebab className="text-white" />
+
           </Link>
 
-          <Link href={"https://espaco-alfa.vercel.app/"} data-aos="fade-left" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <Link
+            href={"https://espaco-alfa.vercel.app/"}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-left"
+            data-aos-delay="500"
+            className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3"
+          >
             <Image width={50} height={20} className="rounded-md" src="/logosf.jpg" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-blue-800"> Espaço Alfa </p>
             <CiMenuKebab className="text-white" />
+
           </Link>
 
-          <Link href={"https://hamburgueria-nine-chi.vercel.app/"} data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <Link
+            href={"https://hamburgueria-nine-chi.vercel.app/"}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-right"
+            data-aos-delay="500"
+            className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3"
+          >
             <Image width={50} height={20} className="rounded-md" src="/burgue.jpg" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 text-center text-white rounded-md bg-green-800"> Hamburgueria </p>
             <CiMenuKebab className="text-white" />
+
           </Link>
 
-          <Link href={""} data-aos="fade-left" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <Link
+            href={""}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-left"
+            data-aos-delay="500"
+            className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3"
+          >
             <Image width={50} height={20} className="rounded-md" src="/nextjs.jpg" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 bg-slate-400 rounded-md text-center text-white">Next Web</p>
             <CiMenuKebab className="text-white" />
+
           </Link>
 
-          <Link href={""} data-aos="fade-right" data-aos-delay="500" className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3">
+          <Link
+            href={""}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-right"
+            data-aos-delay="500"
+            className="w-80 md:w-3/4 lg:max-w-4xl h-20 bg-black flex justify-between items-center rounded-md cursor-pointer hover:scale-105 duration-300 p-3"
+          >
             <Image width={50} height={20} className="rounded-md" src="/nestjs-prisma.png" alt="Foto do Site" />
             <p className="w-36 p-2 px-5 bg-rose-700 rounded-md text-center text-white">Nest Backend</p>
             <CiMenuKebab className="text-white" />
+
           </Link>
 
         </div>

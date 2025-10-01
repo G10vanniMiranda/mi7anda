@@ -1,6 +1,6 @@
 #### Como ficou o projeto
 
-<img src="./public/meuprojeto.jpg" alt="Print do Projeto" />
+<img src="./preview/meuprojeto.jpg" alt="Print do Projeto" />
 
 
 #### Rodar o banco
