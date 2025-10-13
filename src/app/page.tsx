@@ -72,6 +72,14 @@ const projects: Project[] = [
     labelClass: "bg-yellow-400",
     aos: "fade-up",
   },
+  {
+    href: "https://mahal-sushi-bar.vercel.app/",
+    imgSrc: "/mahal.jpg",
+    imgAlt: "Logo Mahal Sushi Bar",
+    label: "Mahal Sushi Bar",
+    labelClass: "bg-cyan-700",
+    aos: "fade-up",
+  },
 ];
 
 function ProjectCard({ project }: { project: Project }) {
