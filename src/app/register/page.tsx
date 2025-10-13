@@ -17,7 +17,7 @@ export default function Register() {
 
     const url = "http://localhost:8080/users"
 
-    const handlesubmit = async (event: any) => {
+    const handlesubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
 
         // validação

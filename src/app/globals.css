@@ -10,4 +10,6 @@
 
 body{
   background-color: #818d86;
+  
+  overflow-x: hidden;
 }

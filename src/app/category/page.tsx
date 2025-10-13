@@ -11,7 +11,7 @@ export default function Gategory() {
 
     const url = "http://localhost:8080/category"
 
-    const handlesubmit = async (event: any) => {
+    const handlesubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
 
         // validação
